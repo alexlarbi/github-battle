@@ -8,7 +8,7 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 
-ul{
+ul {
   padding: 0;
 }
 
@@ -16,10 +16,16 @@ li {
   list-style-type: none;
 }
 
-container {
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px;
+}
+
+.dark {
+  color: #DADADA;
+  background: #1c2022;
+  min-height: 100%;
 }
 
 .flex-center {
@@ -49,19 +55,19 @@ container {
   justify-content: space-around;
 }
 
-.header-sm {
-  font-size: 28px;
-  font-weight: 300;
-  margin: 10px;
-}
-
 .header-lg {
   font-size: 35px;
   font-weight: 300;
   margin: 20px;
 }
 
-.avatar{
+.header-sm {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.avatar {
   width: 150px;
   height: 150px;
   border-radius: 3px;
@@ -87,7 +93,7 @@ container {
 .card-list li {
   display: flex;
   align-items: center;
-  margin: 10px
+  margin: 10px;
 }
 
 .card-list svg {
@@ -205,11 +211,11 @@ container {
 .dark-btn:disabled {
   background: #f2f2f2;
   color: #c7c7c7;
-}  
+}
 
 .players-container {
   margin: 100px 0;
-} 
+}
 
 .avatar-small {
   width: 55px;
